@@ -1,0 +1,100 @@
+/* *{
+    font-family: 'Poppins', 'Roboto', sans-serif;
+} */
+:root{
+    --title:'Poppins', sans-serif;
+    --subtitle:'Roboto', sans-serif;
+    --color-primary:#FF44F5;
+    --color-secondary:#036156;
+    --size-xl:'30px';
+    --size-s:'10px';
+    --size-m:'20px';
+    --color-active:orange;
+}
+
+.title{
+    font-family:var(--title) ;
+    font-size: var(--size-xl);
+    color: var(--color-primary);
+}
+.subtitle{
+    font-family: var(--subtitle);
+    font-size: var(--size-m);
+}
+button{
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px 10px 20px 20px;
+}
+.header{
+    width: 100vw;
+    
+    height: 25vh;
+    background-color: var(--color-primary);
+}
+aside{
+    width: 25%;
+   /* float: right;*/
+    border: 1px solid #000000;
+   /* background-color: var(--color-secondary);*/
+}
+main{
+   /* float: left;*/
+    width: 70%;
+    border: 1px solid #000000;
+   /* background-color: var(--color-primary);*/
+}
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--color-secondary);
+}
+
+.menu{
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 5px;
+    width: 500px;
+    height: 60px;
+}
+.menu ul, .menuV ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.menu ul li{
+    padding-left:10px;
+    padding-right: 10px;
+    border-right: 1px solid #FF44F5;
+    float: left;
+}
+.menu ul li a, .menuV ul li a{
+    text-decoration: none;
+    color: #cecece;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    color:black;
+}
+
+.menuV{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.menuV ul li a:hover{
+    color: white;
+}
+.menuV ul li a{
+    width: 300px;
+    height: 35px;
+    box-shadow: 2px 2px 2px blue;
+    margin: 5px;
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 10px;
+}
+.menuV ul li{
+    padding: 12px;
+}
+ 

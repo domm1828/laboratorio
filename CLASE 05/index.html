@@ -12,11 +12,30 @@
 <body>
     <div>
         <header>
-            <nav>
+            <nav class="oculto">
                 <ul>
                     <li><a href="#">Inicio</a> </li>
                     <li><a href="#">Servicios</a> </li>
                     <li><a href="#">Blog</a> </li>
+                </ul>
+            </nav>
+            <nav id="menu">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a>
+                        <ul>
+                            <li> <a href="#">Servicios Uno</a> </li>
+                            <li> <a href="#">Servicios Dos</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Blog</a> 
+                        <ul>
+                            <li> <a href="#">Blog Uno</a> </li>
+                            <li> <a href="#">Blog Dos</a> </li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="#">Prueba</a> </li>
                 </ul>
             </nav>
         </header>
@@ -34,7 +53,7 @@
                     Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el
                     cual incluye versiones de Lorem Ipsum.
                 </p>
-                
+
                 <p>
                     Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha
                     sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T.
@@ -45,7 +64,7 @@
                     Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el
                     cual incluye versiones de Lorem Ipsum.
                 </p>
-                
+
                 <p>
                     Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha
                     sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T.
@@ -66,6 +85,22 @@
                 <li>Lorem ipsum sit at meet</li>
                 <li>Lorem ipsum sit at meet</li>
             </ul>
+
+            <article>
+                <img src="./images/what_is_image_Processing.jpg" alt="prueba">
+                <div class="datos-productos">
+                    <p class="nombre">Zapatos ... Prueba</p>
+                    <p class="precio">39,22 $</p>
+                    <div class="colores">
+                        <ul>
+                            <li class="maroon"></li>
+                            <li class="blue"></li>
+                            <li class="yellow"></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </article>
         </aside>
         <footer>
             <p>Example..</p>
